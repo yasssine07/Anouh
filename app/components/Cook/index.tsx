@@ -22,11 +22,11 @@ const Cook = () => {
 
                     <div className='col-span-6 flex flex-col justify-center'>
                         <Fade direction={'up'} delay={400} cascade damping={1e-1} triggerOnce={true}>
-                            <h2 className='text-pink text-lg font-normal mb-3 ls-51 uppercase text-start'>Livraison Rapide</h2>
+                            <h2 className='text-pink text-lg font-normal mb-3 ls-51 uppercase text-start'>{'Livraison Rapide'}</h2>
                         </Fade>
                         <Fade direction={'up'} delay={800} cascade damping={1e-1} triggerOnce={true}>
                             <h3 className="text-3xl lg:text-5xl font-semibold text-black text-start">
-                            Livré rapidement par des experts.
+                            {'Livré rapidement par des experts.'}
                             </h3>
                         </Fade>
                         <Fade direction={'up'} delay={1000} cascade damping={1e-1} triggerOnce={true}>
